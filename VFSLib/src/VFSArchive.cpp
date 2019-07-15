@@ -45,8 +45,7 @@ namespace VFS
 	CVFSArchive::CVFSArchive()
 	{
 //		assert(!m_archiveData);
-		if (!m_archiveData)
-			m_archiveData = new SArchiveData();
+		m_archiveData = new SArchiveData();
 	}
 	CVFSArchive::~CVFSArchive()
 	{
